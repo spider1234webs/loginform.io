@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="login.js"></script>
+  <script src="syurgawi.html"></script>
+  
+</head>
+<body> 
+  <div style="display: flex; justify-content: center;">
+  <div class="container">
+    <div class="main">
+      <h2>Login</h2>
+      <hr>
+      <form onsubmit="return validate(event)" action="syurgawi.html">
+        <div class="input-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div class="input-group">
+          <div style="display: flex; justify-content: center;">
+          <input type="submit" value="Login" class="btn" id="submit" onclick="validate(event)">
+          </div>
+      </form>
+      <div style="text-align: center;">
+      <span>
+        <br><b class="note">Note:</b> for this demo use following username and password
+        </br>
+        <b class="valid">user name : SYAKIR<br/>password : SYAKIR123</b>
+      </span>
+      </div>
+
+        
+      </span>
+    
+      </div>
+    </div>
+  </div>
+</body>
+</html>
